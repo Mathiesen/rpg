@@ -1,0 +1,20 @@
+.command-panel {
+  border: 2px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #282828;
+}
+.command-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+.command-panel li {
+  background-color: #383838;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.command-panel li:hover {
+  background-color: #505050;
+}

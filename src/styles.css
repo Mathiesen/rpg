@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Press Start 2P', sans-serif; /* Use a retro pixel font */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Black background for a classic RPG feel */
+  color: #00ff00; /* Retro green text */
+}
+
+h2, h3 {
+  text-shadow: 2px 2px #000;
+}

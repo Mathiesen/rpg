@@ -1,0 +1,15 @@
+.game-display {
+  height: 80%;
+  overflow-y: scroll;
+  border: 2px solid #fff;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 10px;
+}
+.dialogue-box p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+.dialogue-box strong {
+  color: #00ff00;
+}
