@@ -13,8 +13,8 @@ export class CommandService {
 
   attack(id: string, stamina: number) {
 
-    const body = { stamina };
-    const headers = new HttpHeaders({'content-type': 'application/json'});
+    const body = JSON.stringify(stamina);
+    const headers = new HttpHeaders({'Content-Type': 'application/json'});
     this.http.put(this.baseUrl + "?id=" + id, body, {headers})
       .subscribe({error: err => {
           console.log(err);

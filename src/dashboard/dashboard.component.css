@@ -1,0 +1,26 @@
+.game-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+app-character-panel {
+  width: 25%;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+}
+
+app-game {
+  width: 50%;
+  background-color: #2e2e2e;
+  color: #fff;
+  padding: 20px;
+}
+
+app-command-panel {
+  width: 25%;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+}
